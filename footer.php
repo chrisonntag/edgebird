@@ -10,15 +10,14 @@
             <div class="row">
                 <div class="col-6">
                     <p>
-                    Web Development, Embedded Systems &amp; Fun <br />
-                    based in <a href="https://maps.google.de/maps?oe=utf-8&amp;q=bayern&amp;ie=UTF-8">Bavaria, Germany</a>
-                    <br /><br />
-                    ©2016 - <a href="http://www.chrisonntag.com">Christoph Sonntag</a> | <a href="impressum.html">Impressum</a>
+                        This site uses the <a href="https://github.com/chrisonntag/edgebird">edgebird</a> theme
                     </p>
                 </div>
                 
                 <div class="col-6">
-                hello (at) thisdomain (dot) com
+                    <p>
+                        <?php _e('Proudly powered by WordPress'); ?>
+                    </p>
                 </div>
             </div><!-- .row -->
         </div><!-- .main -->
