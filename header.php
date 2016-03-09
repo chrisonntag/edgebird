@@ -38,10 +38,8 @@
 		?>
 	</title>
 	<meta name="description" content="<?php bloginfo('description'); ?>">
-	<meta name="author" content="">
-	<meta name="keywords" content="">
-
-    <!-- Favicon -->
+	
+    	<!-- Favicon -->
 	<link rel="shortcut icon" href="">
 
 	<!-- CSS Stylesheets -->
