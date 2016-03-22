@@ -227,17 +227,6 @@ img.alignleft {
     margin-top: 40px !important; }
 
 
-.docs-head {
-  display: block;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 60px;
-  color: #ffffff;
-  background-color: #F03939; /*#F03939*/ /*#09a0f6*/
-}
-
-
 .gh-btns {
   display: block;
   width: 100%;
@@ -437,6 +426,9 @@ body {
 * Styling the content-single sites
 *
 */
+
+article .post { text-align: justify; }
+
 .entry-meta-single {
     margin: 0px 0px;
     padding: 2em 0em;
