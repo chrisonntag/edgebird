@@ -427,7 +427,7 @@ body {
 *
 */
 
-article .post { text-align: justify; }
+.post { text-align: justify; }
 
 .entry-meta-single {
     margin: 0px 0px;
