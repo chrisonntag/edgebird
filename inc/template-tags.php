@@ -65,7 +65,7 @@ function edgebird_posted_on() {
         echo '<div class="meta-content">';
     }
 
-    echo '<span class="byline">' . $byline . $published_in . ' </span><br /><span class="posted-on">' . $posted_on . ' </span><br />'; // WPCS: XSS OK.
+    echo '<span class="posted-on">' . $posted_on . ' </span><br />'; // WPCS: XSS OK.
     if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
         echo '<span class="comments-link">';
         comments_popup_link( esc_html__( 'Leave a comment', 'edgebird' ), esc_html__( '1 Comment', 'edgebird' ), esc_html__( '% Comments', 'edgebird' ) );
